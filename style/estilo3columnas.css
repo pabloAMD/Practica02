@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+* {
+	border-width: 2 px;
+	border-color: red;
+    border-style: solid;
+    margin: 0.2%;
+}
+
+.noticia{
+    width: 30%;
+    float: left;
+}
+.contenido{
+    width: 54%;
+    float: left;
+}
+.publicidad{
+    float: left;
+    width: 10%;
+}
+footer{
+    clear: both;
+}
