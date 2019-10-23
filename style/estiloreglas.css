@@ -21,6 +21,7 @@
     color:#FF5252;
     padding: 10px;
     border-bottom: 1px solid black;
+    
 }
 #Tini:hover {
     background: rgb(248, 78, 78);
@@ -39,20 +40,29 @@
 }
 .letracontenido{
     font-size: 20px ;
+    text-align: justify;
 }
 .letranoticia {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000;
+}
+.letranoticia:hover{
+    color: rgb(253, 129, 107);
+    
 }
 
 .noticiaimagenes {
+    margin: 5%;
     height: 130px;
     width: 150px;
 }
+
 nav a{
     text-decoration: none;
     display: inline-block;
     width: 100%;
     padding: 10px;
+    
     
 }
 nav a:hover {
@@ -60,17 +70,59 @@ nav a:hover {
     color: white;
 }
 .inicioF {
-    height: 500px;
+    
+    
     width: 100%;
-    background-image: url(../imagenes/fondoP.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 400px;
+    background: linear-gradient(to bottom, 
+    rgba(206, 15, 206, 0.2), 
+    rgba(255, 0, 255, .3), 
+    rgba(211, 135, 20, .5), 
+    rgba(142, 142, 142, .5),
+    rgba(142, 142, 142, .5),
+    rgba(29, 241, 171, .5), 
+    rgba(7, 109, 150, .4), 
+    rgba(16, 167, 243, .5)),  url(../imagenes/fondoP.jpg);
+    /* background-repeat: no-repeat;  */
+    /* background-attachment: contain; */
+   
     background-position: center;
-    padding-top: 50px;
+    background-size: cover;
 }
 .separaPublicidad {
     border-bottom: 1px solid black;
 }
 .separaPublicidad.descripcionEs {
-    padding: 4px;
+    padding: 7.7px;
+}
+.divnoticia {
+    margin: 10px 0px;
+    border-bottom: 1px solid black ;
+    padding-bottom: 10px;
+}
+.inicioW {
+    
+    
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to bottom, 
+    rgba(142, 142, 142, .2),
+    rgba(142, 142, 142, .2),
+    rgba(29, 241, 171, .2), 
+    rgba(7, 109, 150, .3), 
+    rgba(16, 167, 243, .5)),  url(../imagenes/windows.jpg);
+    /* background-repeat: no-repeat;  */
+    /* background-attachment: contain; */
+   
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.inicioW h1 {
+    padding-top: 300px;
+}
+.tamaniovideo {
+    width: 100%;
+    height: 500px;
 }

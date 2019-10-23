@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+* {
+    padding: 0%;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.inicio{
+    width: 30%;
+    float: left;
+    border-style: dashed;
+    padding: 0%;
+  
+    
+}
+.contenido{
+    width: 70%;
+    float: left;
+    border-style: dashed;
+    padding: 10px;
+}
+footer{
+    padding: 10px 0px;
+    margin: 0;
+    width: 100%;
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer p {
+    margin: 0%;
+    padding: 0%;
+}
+footer p:nth-child(4) a,footer p:nth-child(5) a {
+    color: rgb(91, 166, 228);
+    text-decoration: none;
+}
