@@ -1,10 +1,11 @@
 @charset "utf-8";
 
 * {
-	border-width: 2 px;
-	border-color: red;
-    border-style: solid;
-    margin: 0.2%;
+    background-color: rgb(191, 237, 248);
+	border-width: 5 px;
+	border-color: rgb(32, 4, 4);
+    border-style:  solid;
+    margin: 0.3%;
 }
 
 .noticia{
@@ -17,7 +18,7 @@
 }
 .publicidad{
     float: left;
-    width: 10%;
+    width: 13%;
 }
 footer{
     clear: both;
