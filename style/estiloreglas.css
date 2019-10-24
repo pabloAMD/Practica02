@@ -9,7 +9,6 @@
     background: none;
     font-size: 60px;
     text-align: center;
-    color: white;
     margin: 0%;
 }
 #Tini {
@@ -100,9 +99,8 @@ nav a:hover {
     border-bottom: 1px solid black ;
     padding-bottom: 10px;
 }
-.inicioW {
-    
-    
+.inicioW { 
+    color: white;
     width: 100%;
     height: 400px;
     background: linear-gradient(to bottom, 
@@ -125,4 +123,24 @@ nav a:hover {
 .tamaniovideo {
     width: 100%;
     height: 500px;
+}
+
+.inicioM {
+    color: white;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to bottom, 
+    rgba(142, 142, 142, 0),
+    rgba(142, 142, 142, 0),
+    rgba(29, 241, 171, 0), 
+    rgba(7, 109, 150, 0), 
+    rgba(241, 243, 245, 0.5)),  url(../imagenes/mac.jpg);
+    /* background-repeat: no-repeat;  */
+    /* background-attachment: contain; */
+   
+    background-position: center;
+    background-size: cover;
+}
+.inicioM h1 {
+    padding-top: 170px;
 }
