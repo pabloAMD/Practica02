@@ -26,35 +26,35 @@
 .publicidadW {
     width: 30%;
     position: absolute;
-    bottom: -150%;
+    bottom: -135%;
     border-style: dashed;
     padding: 0%;
 }
 .publicidadM {
     width: 30%;
     position: absolute;
-    bottom: -185%;
+    bottom: -165%;
     border-style: dashed;
     padding: 0%;
 }
 .publicidadL {
     width: 30%;
     position: absolute;
-    bottom: -165%;
+    bottom: -145%;
     border-style: dashed;
     padding: 0%;
 }
 .publicidadK {
     width: 30%;
     position: absolute;
-    bottom: -170%;
+    bottom: -151%;
     border-style: dashed;
     padding: 0%;
 }
 .publicidadS {
     width: 30%;
     position: absolute;
-    bottom: -185%;
+    bottom: -160%;
     border-style: dashed;
     padding: 0%;
 }

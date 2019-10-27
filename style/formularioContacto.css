@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+header{
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    height: 70px;
+    position:absolute;
+   
+}
+head{
+    position: fixed;
+}
+
+.ancho{
+        position: fixed;
+    width: 80%;
+    height: 70px;
+    margin: auto; 
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    float: left; 
+    padding-top: 10px; 
+}
+.logo a{
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none; 
+    font-weight: bold; 
+    letter-spacing: 1px;
+    font-family: rale;
+
+}
+nav{
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align: right; 
+    padding-top: 24px; 
+}
+nav ul li {
+    display: inline; 
+
+}
+nav ul li a{
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none; 
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold; 
+    letter-spacing: 1px;
+    font-family: rale;
+}
+nav ul li a:hover{
+   color: aqua;
+}
+#contenido{
+    top: 100px;
+    position: absolute;
+    margin-left: 34%;
+    bottom:5%;
+}
+
+body{
+    background: url(../images/fondoContac.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    font-family: rale;
+}
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0,.4);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+
+}
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 17px;
+    border: none;
+    font-family: rale;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px; 
+    max-width: 100%;
+}
+#boton{
+    width: 100%;
+    height: 30px;
+    font-size: 22px;
+    border: 0;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.0);
+    border-bottom: solid 1px #fff;
+    color: #fff;
+    margin-top: 50px;
+    transition: all 200ms ease;
+
+}
+#boton:hover{
+    width: 120%;
+    margin-left: -10%;
+    cursor: pointer;
+}
+#boton:active{
+    background-color: rgba(255, 255, 255, .2);
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+}
+#boton:focus{
+    background-color: rgba(255, 255, 255, .2);
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+}
+#piePagina{
+    top: 663px;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    margin-left: 5px;
+    background: url("../images/fondo.jpg");  
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+#nom{
+    width: 100%;
+    height: 100px;
+    color: #86BCB9;
+
+}
+#nom h2{
+    text-transform: uppercase; 
+    padding-left: 3px; 
+    font-weight: bold; 
+    letter-spacing: 1px; 
+    font-family: rale;
+    text-align: center;
+}
+#referencia{
+    width: 70%;
+    height: 100px;
+  
+    float: left;
+    text-align: center;
+    padding-top: 24px; 
+}
+#referencia p  {
+    display: inline;
+    color: springgreen;
+}
+#referencia p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: deepskyblue;
+}
+#referencia p a:hover{
+   color: indigo;
+}
+#copi{
+    width: 30%;
+    height: 100px;
+    margin-left: 1004px;
+}
+#copi label{
+    display: inline;
+    float: left;
+    text-align: center;
+    padding-top: 24px; 
+    font-family: rale;
+    color: aliceblue;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    top: 590px;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+footer p {
+    margin: 0%;
+    padding: 0%;
+}
+footer p:nth-child(4) ,footer p:nth-child(5)  {
+    color: rgb(91, 166, 228);
+    text-decoration: none;
+}
