@@ -3,7 +3,7 @@
 * {
     padding: 0%;
     border: 0;
-    box-sizing: border-box;
+
     
 }
 
@@ -11,10 +11,17 @@
 .inicio{
     width: 30%;
     float: left;
-    border-style: dashed;
+    border-style: groove;
     padding: 0%;
   
     
+}
+.publicidad {
+    width: 30%;
+    position: absolute;
+    bottom: -220%;
+    border-style: dashed;
+    padding: 0%;
 }
 .contenido{
     width: 53%;
@@ -39,7 +46,4 @@ footer p {
     margin: 0%;
     padding: 0%;
 }
-footer p:nth-child(4) a,footer p:nth-child(5) a {
-    color: rgb(91, 166, 228);
-    text-decoration: none;
-}
+

@@ -27,16 +27,32 @@
     color: white;
     
 }
+footer p:nth-child(4) ,footer p:nth-child(5)  {
+    color: rgb(91, 166, 228);
+    text-decoration: none;
+}
+.textoG:hover  {
+    -moz-transform: scale(2,2);
+    -webkit-transform: scale(2,2);
+    -o-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    transform: scale(2,2);
+}
 .publicidadimagen {
     height: 270px;
     width: 360px;
 }
+.indexletra h2 {
+    font-weight: bold'
+}
+.indexletra h3 {
+    font-weight: bold;
+    color: red;
+}
 .publicidadimagen:hover{
     opacity: 0.5;
 }
-.publicidadletra {
-    color:red;
-}
+
 .letracontenido{
     font-size: 20px ;
     text-align: justify;
@@ -48,6 +64,9 @@
 .letranoticia:hover{
     color: rgb(253, 129, 107);
     
+}
+nav {
+    border-radius: 10px;
 }
 
 .noticiaimagenes {
@@ -108,9 +127,7 @@ nav a:hover {
     rgba(29, 241, 171, .2), 
     rgba(7, 109, 150, .3), 
     rgba(16, 167, 243, .5)),  url(../imagenes/windows.jpg);
-    /* background-repeat: no-repeat;  */
-    /* background-attachment: contain; */
-   
+  
     background-position: center;
     background-size: cover;
     
@@ -150,13 +167,16 @@ nav a:hover {
     padding: 5px;
     
 }
+.versiones h2 {
+    font-weight: bold;
+}
 .tamanoMac {
     width:380px; 
     height:250px;
 }
 .tamanoWindows {
     width:400px;
-    height:300px;
+    height:200px;
 }
 .inicioL {
     color: white;
@@ -176,4 +196,36 @@ nav a:hover {
 }
 .inicioL h1 {
     padding-top: 300px;
+}
+.inicioK {
+    color: white;
+    width: 100%;
+    height: 400px;
+    background-image: url("../imagenes/kubuntu.jpg");
+    /* background-repeat: no-repeat;  */
+    /* background-attachment: contain; */
+   
+    background-position: center;
+    background-size: cover;
+}
+.inicioS {
+    color: white;
+    width: 100%;
+    height: 400px;
+    background-image: url("../imagenes/solus.png");
+    /* background-repeat: no-repeat;  */
+    /* background-attachment: contain; */
+   
+    background-position: center;
+    background-size: cover;
+}
+.centradoCaracteristicas h4 {
+    font-weight: bold;;
+    font-size: 18px;
+}
+.centradoCaracteristicas ul {
+    font-size: 15px ;
+}
+.centradoCaracteristicas p {
+    text-align: justify;
 }
