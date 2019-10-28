@@ -149,7 +149,11 @@ Al final se puede observar que se matiene el uso del segmento del footer
 Se puede observar que mediante la validacion de las paginas html exiten mensajes Warning que se tomaran en cuenta, en el caso de la pagina linux.html existen 4 warnings mientras en las demas paginas solo exiten 2.
 
 ## Conclusiones
---Existen un sin numero de etiquetas en html5 que se usan para la creacion y diseño de las paginas html 
+- Existen un sin numero de etiquetas en html5 que se usan para la creacion y diseño de las paginas html.
+- El diseño que tiene cada pagina html se puede hacer de dos maneras en su mismo archivo o se puede crear un archivo css en donde se realizaran reglas con selectores para el diseño y pueden ser utilizados cuando se lo requiera
+- La mejor manera de diseñar los archivos html son mediante archivos css, esto debido a que se puede reutilizar reglas en diferentes archivos html y es una manera optima y recomendable de manejar las paginas web
+- En un archivo css se pueden poner selectores de diferentes tipos como por ejemplo por clase, por id y descendentes a su vez se puede utilizar pseudo-clases.
+- Una manera de trabajar de mejor manera es separar los tipos de archivos mediante carpetas que tengan como contenido el mismo tipo de archivo
 
 
 
