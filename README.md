@@ -70,11 +70,11 @@ A diferencia de la pagina index.html las otras paginas que se utilizan tienen un
 ![d5](https://user-images.githubusercontent.com/33675679/67645916-78dff880-f8f9-11e9-9236-0f6ab31f682e.JPG)
 
 #### Codigo 
-
+![cc1](https://user-images.githubusercontent.com/33675679/67646097-6914e400-f8fa-11e9-8ca4-886785cfcd03.JPG)
 ![cc2](https://user-images.githubusercontent.com/33675679/67646093-687c4d80-f8fa-11e9-9cd4-0bd587ebb60f.JPG)
 ![cc3](https://user-images.githubusercontent.com/33675679/67646094-6914e400-f8fa-11e9-9ac4-621ae9769459.JPG)
 ![cc4](https://user-images.githubusercontent.com/33675679/67646095-6914e400-f8fa-11e9-97ad-4998107f1d86.JPG)
-![cc1](https://user-images.githubusercontent.com/33675679/67646097-6914e400-f8fa-11e9-8ca4-886785cfcd03.JPG)
+
 
 Se muestra la pagina con diseño de dos columnas, las demas paginas tienen el mismo diseño, como se puede observar la estructura es casi similar en el archivo html, la diferencia se nota en el archivo css en el cual se definen sus cajas.
 
@@ -107,7 +107,7 @@ Ademas se puede observar el uso de pseudo-clases en el proyecto.
 #### Codigo
 ![menu](https://user-images.githubusercontent.com/33675679/67647322-e7c05000-f8ff-11e9-98d6-819520eeeadb.JPG)
 
-Como se puede observar dentro del menu se realiza el uso de listas desordenas y el resultado de este codigo se puede apreciar en imagenes anteriores de las paginas
+Como se puede observar dentro del menu se realiza el uso de listas desordenas y el resultado de este codigo se puede apreciar en imagenes anteriores de las paginas.
  
  ## Formulario de Contacto
 #### Codigo 
@@ -150,10 +150,10 @@ Se puede observar que mediante la validacion de las paginas html exiten mensajes
 
 ## Conclusiones
 - Existen un sin numero de etiquetas en html5 que se usan para la creacion y diseño de las paginas html.
-- El diseño que tiene cada pagina html se puede hacer de dos maneras en su mismo archivo o se puede crear un archivo css en donde se realizaran reglas con selectores para el diseño y pueden ser utilizados cuando se lo requiera
-- La mejor manera de diseñar los archivos html son mediante archivos css, esto debido a que se puede reutilizar reglas en diferentes archivos html y es una manera optima y recomendable de manejar las paginas web
+- El diseño que tiene cada pagina html se puede hacer de dos maneras en su mismo archivo o se puede crear un archivo css en donde se realizaran reglas con selectores para el diseño y pueden ser utilizados cuando se lo requiera.
+- La mejor manera de diseñar los archivos html son mediante archivos css, esto debido a que se puede reutilizar reglas en diferentes archivos html y es una manera optima y recomendable de manejar las paginas web.
 - En un archivo css se pueden poner selectores de diferentes tipos como por ejemplo por clase, por id y descendentes a su vez se puede utilizar pseudo-clases.
-- Una manera de trabajar de mejor manera es separar los tipos de archivos mediante carpetas que tengan como contenido el mismo tipo de archivo
+- Una manera de trabajar de mejor manera es separar los tipos de archivos mediante carpetas que tengan como contenido el mismo tipo de archivo.
 
 
 
