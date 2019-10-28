@@ -1,5 +1,13 @@
 # Practica 02
 
+## Informacion de Github
+
+##### Usuario:
+pabloAMD
+
+##### Url Repositorio:
+https://github.com/pabloAMD/Practica02
+
 ## Creacion de las diferentes carpetas y se muestra su contenido 
 
 ![1](https://user-images.githubusercontent.com/33675679/67644665-65309400-f8f1-11e9-88c3-c5219de5153d.JPG)
@@ -115,8 +123,39 @@ El formulario de contacto es una pagina html que tiene un diseño diferente a la
 Como se dijo la pagina tiene un diseño diferente, esta tiene un menu horizontal en la parte superior y cuenta con los campos para nombre, correo electronico, mensaje y enviar.
 Al final se puede observar que se matiene el uso del segmento del footer
 
-## Validacion paginas html
+## Validacion de archivos html
 #### index.html
+![vIndex](https://user-images.githubusercontent.com/33675679/67648710-7fc03880-f904-11e9-9e50-591afc961457.JPG)
+
+#### windos.html
+![vWindows](https://user-images.githubusercontent.com/33675679/67648856-dc235800-f904-11e9-8d25-d1cd47fc978e.JPG)
+
+#### kubunto.html
+![vKubunto](https://user-images.githubusercontent.com/33675679/67648711-7fc03880-f904-11e9-829c-300b0bee0f29.JPG)
+
+#### linux.html
+![vLinux](https://user-images.githubusercontent.com/33675679/67648712-7fc03880-f904-11e9-9a2d-bfeebc077bef.JPG)
+![vLinux1](https://user-images.githubusercontent.com/33675679/67648713-7fc03880-f904-11e9-966a-544262519aa5.JPG)
+
+#### mac.html
+![vMac](https://user-images.githubusercontent.com/33675679/67648714-7fc03880-f904-11e9-85ba-af7bb1ebe2eb.JPG)
+
+#### solus.html
+![vSolus](https://user-images.githubusercontent.com/33675679/67648716-8058cf00-f904-11e9-8736-285d23eeadf7.JPG)
+
+#### formularioC.html
+![vFondocontacto](https://user-images.githubusercontent.com/33675679/67648718-8058cf00-f904-11e9-9de3-1d79e5423ee7.JPG)
+
+Se puede observar que mediante la validacion de las paginas html exiten mensajes Warning que se tomaran en cuenta, en el caso de la pagina linux.html existen 4 warnings mientras en las demas paginas solo exiten 2.
+
+## Conclusiones
+--Existen un sin numero de etiquetas en html5 que se usan para la creacion y diseño de las paginas html 
+
+
+
+
+
+
 
 
 
