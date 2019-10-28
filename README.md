@@ -5,8 +5,11 @@
 ##### Usuario:
 pabloAMD
 
-##### Url Repositorio:
+##### Url Repositorio Practica02:
 https://github.com/pabloAMD/Practica02
+
+##### Url Repositorio Tutorial02:
+https://github.com/pabloAMD/tutorial02
 
 ## Creacion de las diferentes carpetas y se muestra su contenido 
 
