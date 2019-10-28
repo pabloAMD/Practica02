@@ -1,39 +1,36 @@
-@charset "utf-8";
-
 * {
     padding: 0%;
     border: 0;
-
-    
 }
 
-
-.inicio{
+.inicio {
     width: 30%;
     float: left;
     border-style: groove;
     padding: 0%;
-  
-    
 }
+
 .publicidad {
     width: 30%;
     position: absolute;
-    bottom: -195%;
+    bottom: -218%;
     border-style: dashed;
     padding: 0%;
 }
-.contenido{
+
+.contenido {
     width: 53%;
     float: left;
     border-style: dashed;
     padding: 10px;
 }
-.noticia{
+
+.noticia {
     float: left;
     width: 12%;
 }
-footer{
+
+footer {
     padding: 10px 0px;
     margin: 0;
     width: 100%;
@@ -42,8 +39,8 @@ footer{
     color: white;
     text-align: center;
 }
+
 footer p {
     margin: 0%;
     padding: 0%;
 }
-

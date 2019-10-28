@@ -1,70 +1,81 @@
 @charset "utf-8";
-.imagenSistema{
+.imagenSistema {
     height: 300px;
     width: 900px;
     display: block;
     margin: auto;
 }
+
 .center {
     background: none;
     font-size: 60px;
     text-align: center;
     margin: 0%;
 }
+
 #Tini {
     text-decoration: none;
     display: inline-block;
     width: 100%;
     text-align: center;
     font-size: 40px;
-    color:#FF5252;
+    color: #FF5252;
     padding: 10px;
     border-bottom: 1px solid black;
-    
 }
+
 #Tini:hover {
     background: rgb(248, 78, 78);
     color: white;
-    
 }
-footer p:nth-child(4) ,footer p:nth-child(5)  {
+
+footer p:nth-child(4),
+footer p:nth-child(5) {
     color: rgb(91, 166, 228);
     text-decoration: none;
 }
-.textoG:hover  {
-    -moz-transform: scale(2,2);
-    -webkit-transform: scale(2,2);
-    -o-transform: scale(2,2);
-    -ms-transform: scale(2,2);
-    transform: scale(2,2);
+
+.textoG:hover {
+    -moz-transform: scale(2, 2);
+    -webkit-transform: scale(2, 2);
+    -o-transform: scale(2, 2);
+    -ms-transform: scale(2, 2);
+    transform: scale(2, 2);
 }
+
 .publicidadimagen {
     height: 270px;
     width: 360px;
 }
+
 .indexletra h2 {
     font-weight: bold'
+
 }
+
 .indexletra h3 {
     font-weight: bold;
     color: red;
 }
-.publicidadimagen:hover{
+
+.publicidadimagen:hover {
     opacity: 0.5;
 }
 
-.letracontenido{
-    font-size: 20px ;
+.letracontenido {
+    font-size: 20px;
     text-align: justify;
 }
+
 .letranoticia {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #000;
 }
-.letranoticia:hover{
+
+.letranoticia:hover {
     color: rgb(253, 129, 107);
-    
 }
+
 nav {
     border-radius: 10px;
 }
@@ -75,67 +86,53 @@ nav {
     width: 150px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     display: inline-block;
     width: 100%;
     padding: 10px;
-        
 }
+
 nav a:hover {
     background: rgb(252, 74, 74);
     color: white;
 }
+
 .inicioF {
-    
-    
     width: 100%;
     height: 400px;
-    background: linear-gradient(to bottom, 
-    rgba(206, 15, 206, 0.2), 
-    rgba(255, 0, 255, .3), 
-    rgba(211, 135, 20, .5), 
-    rgba(142, 142, 142, .5),
-    rgba(142, 142, 142, .5),
-    rgba(29, 241, 171, .5), 
-    rgba(7, 109, 150, .4), 
-    rgba(16, 167, 243, .5)),  url(../imagenes/fondoP.jpg);
-    /* background-repeat: no-repeat;  */
-    /* background-attachment: contain; */
-   
+    background: linear-gradient(to bottom, rgba(206, 15, 206, 0.2), rgba(255, 0, 255, .3), rgba(211, 135, 20, .5), rgba(142, 142, 142, .5), rgba(142, 142, 142, .5), rgba(29, 241, 171, .5), rgba(7, 109, 150, .4), rgba(16, 167, 243, .5)), url(../imagenes/fondoP.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .separaPublicidad {
     border-bottom: 1px solid black;
 }
+
 .separaPublicidad.descripcionEs {
     padding: 7.7px;
 }
+
 .divnoticia {
     margin: 10px 0px;
-    border-bottom: 1px solid black ;
+    border-bottom: 1px solid black;
     padding-bottom: 10px;
 }
-.inicioW { 
+
+.inicioW {
     color: white;
     width: 100%;
     height: 400px;
-    background: linear-gradient(to bottom, 
-    rgba(142, 142, 142, .2),
-    rgba(142, 142, 142, .2),
-    rgba(29, 241, 171, .2), 
-    rgba(7, 109, 150, .3), 
-    rgba(16, 167, 243, .5)),  url(../imagenes/windows.jpg);
-  
+    background: linear-gradient(to bottom, rgba(142, 142, 142, .2), rgba(142, 142, 142, .2), rgba(29, 241, 171, .2), rgba(7, 109, 150, .3), rgba(16, 167, 243, .5)), url(../imagenes/windows.jpg);
     background-position: center;
     background-size: cover;
-    
-    
 }
+
 .inicioW h1 {
     padding-top: 300px;
 }
+
 .tamaniovideo {
     width: 100%;
     height: 450px;
@@ -145,69 +142,60 @@ nav a:hover {
     color: white;
     width: 100%;
     height: 400px;
-    background: linear-gradient(to bottom, 
-    rgba(142, 142, 142, 0),
-    rgba(142, 142, 142, 0),
-    rgba(29, 241, 171, 0), 
-    rgba(7, 109, 150, 0), 
-    rgba(241, 243, 245, 0.5)),  url(../imagenes/mac.jpg);
-    /* background-repeat: no-repeat;  */
-    /* background-attachment: contain; */
-   
+    background: linear-gradient(to bottom, rgba(142, 142, 142, 0), rgba(142, 142, 142, 0), rgba(29, 241, 171, 0), rgba(7, 109, 150, 0), rgba(241, 243, 245, 0.5)), url(../imagenes/mac.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .inicioM h1 {
     padding-top: 170px;
 }
+
 .versiones li {
     text-decoration: none;
     display: inline-block;
     width: 100%;
     padding: 5px;
-    
 }
+
 .versiones h2 {
     font-weight: bold;
 }
+
 .tamanoMac {
-    width:380px; 
-    height:250px;
+    width: 380px;
+    height: 250px;
 }
+
 .tamanoWindows {
-    width:400px;
-    height:200px;
+    width: 400px;
+    height: 200px;
 }
+
 .inicioL {
     color: white;
     width: 100%;
     height: 400px;
-    background: linear-gradient(to bottom, 
-    rgba(142, 142, 142, 0),
-    rgba(142, 142, 142, 0),
-    rgba(29, 241, 171, 0), 
-    rgba(7, 109, 150, 0), 
-    rgba(241, 243, 245, 0.5)),  url(../imagenes/flinux.jpg);
+    background: linear-gradient(to bottom, rgba(142, 142, 142, 0), rgba(142, 142, 142, 0), rgba(29, 241, 171, 0), rgba(7, 109, 150, 0), rgba(241, 243, 245, 0.5)), url(../imagenes/flinux.jpg);
     /* background-repeat: no-repeat;  */
     /* background-attachment: contain; */
-   
     background-position: center;
     background-size: cover;
 }
+
 .inicioL h1 {
     padding-top: 300px;
 }
+
 .inicioK {
     color: white;
     width: 100%;
     height: 400px;
     background-image: url("../imagenes/kubuntu.jpg");
-    /* background-repeat: no-repeat;  */
-    /* background-attachment: contain; */
-   
     background-position: center;
     background-size: cover;
 }
+
 .inicioS {
     color: white;
     width: 100%;
@@ -215,17 +203,20 @@ nav a:hover {
     background-image: url("../imagenes/solus.png");
     /* background-repeat: no-repeat;  */
     /* background-attachment: contain; */
-   
     background-position: center;
     background-size: cover;
 }
+
 .centradoCaracteristicas h4 {
-    font-weight: bold;;
+    font-weight: bold;
+    ;
     font-size: 18px;
 }
+
 .centradoCaracteristicas ul {
-    font-size: 15px ;
+    font-size: 15px;
 }
+
 .centradoCaracteristicas p {
     text-align: justify;
 }

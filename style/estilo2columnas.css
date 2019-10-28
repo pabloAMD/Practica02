@@ -3,58 +3,46 @@
 * {
     padding: 0%;
     border: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
-
-
 .inicio{
     width: 30%;
     float: left;
-    border-style: dashed;
-    padding: 0%;
-  
-    
-}
-.publicidadIn {
-    width: 30%;
-    position: absolute;
-    bottom: -150%;
     border-style: dashed;
     padding: 0%;
 }
 .publicidadW {
     width: 30%;
     position: absolute;
-    bottom: -135%;
+    bottom: -150%;
     border-style: dashed;
     padding: 0%;
 }
 .publicidadM {
     width: 30%;
     position: absolute;
-    bottom: -165%;
+    bottom: -182%;
     border-style: dashed;
     padding: 0%;
 }
 .publicidadL {
     width: 30%;
     position: absolute;
-    bottom: -145%;
+    bottom: -165%;
     border-style: dashed;
     padding: 0%;
 }
 .publicidadK {
     width: 30%;
     position: absolute;
-    bottom: -151%;
+    bottom: -171%;
     border-style: dashed;
     padding: 0%;
 }
 .publicidadS {
     width: 30%;
     position: absolute;
-    bottom: -160%;
+    bottom: -182%;
     border-style: dashed;
     padding: 0%;
 }
